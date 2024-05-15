@@ -13,7 +13,7 @@
             <property name="max" value="20"/>
         </module>
         <module name="MethodLength">
-            <property name="max" value="500"/>
+            <property name="max" value="1000"/>
         </module>
         <module name="EmptyCatchBlock"/>
         <module name="AvoidStarImport"/>

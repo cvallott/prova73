@@ -8,8 +8,9 @@ package it.unipd.mtss;
 public class IntegerToRoman {
     public static String convert(int number) {
 
-        if (number < 1 || number > 1000)
+        if (number < 1 || number > 1000) {
             return "Numero non valido";
+        }
         String roman = "";
 
         while (number == 1000) {
